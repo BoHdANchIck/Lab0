@@ -5,7 +5,12 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int a = 1000;
+	while (a > 0)
+	{
+		std::cout << a << " - 7\n";
+		a = a - 7;
+	}
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
